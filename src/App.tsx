@@ -21,7 +21,14 @@ export function App() {
       <Container>
         <form className='form' action=''>
           <div className='formRow'>
-            <DefaultInput id='meuInput' type='text' />
+            <DefaultInput
+              id='meuInput'
+              type='text'
+              labelText='task'
+              placeholder='Digite algo'
+              disabled
+              defaultValue='Valor preenchido'
+            />
           </div>
           <div className='formRow'>
             <p>Lorem ipsum dolor sit amet.</p>
